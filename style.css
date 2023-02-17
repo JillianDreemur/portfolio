@@ -1,3 +1,6 @@
+* {
+	color: whitesmoke;
+}
 /* texto hero image */
 .hero_titulo {
 	font-size: 4.5rem;
@@ -31,6 +34,8 @@
 .servicesText.card{
 	height: 280px;
 	cursor: pointer;
+	background-color: black;
+	border: 1px solid whitesmoke;
 }
 
 .servicesIcon {
@@ -44,23 +49,27 @@
 }
 
 .card:hover .servicesIcon{
-	color: #008000;
+	color: hotpink;
+}
+
+.card-body {
+	background-color: black;
+	border: 1px solid whitesmoke;
 }
 
 .servicesText:hover {
-	border: 1px solid #008000;
+	border: 2px solid hotpink;
 }
 
 /* menu */
 .navbar {
-	background-color: #006342;
+	background-color: #866B7B;
 }
 .navbar a {
 	color: white;
 }
 .navbar a:hover {
-	color: black;
-	background-color: #ddd;
+	color: hotpink;
 }
 
 .contactIcon{
@@ -83,4 +92,12 @@
 #sobre, #servicos, #portfolio, #portfolio2, #contato {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
+}
+
+.fa-brands {
+	color: hotpink;
+}
+
+.bg-dark {
+	background-color: #1C1919 !important;
 }
