@@ -1,0 +1,482 @@
+seção de portfolio gigantesca
+
+<section class="shadow" id="portfolio">
+		<div class="container mt-3">
+			<h1 class="text-center">Portfólio</h1>
+
+			<div class="row"> <!-- linha 1 -->
+				
+				<div class="col-lg-6 mt-4"> <!-- coluna 1 linha 1 -->
+					<div class="card">
+						<img class="card-img-top" src="portfolio/thumbnail/estante.png" style="width:100%">
+						<div class="card-body">
+							<h4 class="card-title">Estante de Livros</h4>
+							<p>Primeiro projeto com HTML e CSS, desenvolvido no curso Do Zero ao primeiro Site, ofertado pelo grupo +praTi. Neste projeto dei meus primeiros passos com o desenvolvimento Web e trabalhei com divisões, imagens, listas e tabelas.</p>
+							<div class="text-center">
+								<a href="portfolio/estante/estante.html" class="btn btn-success" target="_blank">Acesse aqui</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6 mt-4"> <!-- coluna 2 linha 1 -->
+					<div class="card">
+						<img class="card-img-top" src="portfolio/thumbnail/locadora.png" style="width:100%">
+						<div class="card-body">
+							<h4 class="card-title">Locadora de Filmes</h4>
+							<p>Primeiro projeto com HTML e CSS, desenvolvido no curso Do Zero ao primeiro Site, ofertado pelo grupo +praTi. Neste projeto dei meus primeiros passos com o desenvolvimento Web e trabalhei com divisões, imagens, listas e tabelas.</p>
+							<div class="text-center">
+								<a href="portfolio/Locadora/locadora.html" class="btn btn-success" target="_blank">Acesse aqui</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="row"> <!-- linha 2 -->
+				
+				<div class="col-lg-6 mt-4"> <!-- coluna 1 linha 2 -->
+					<div class="card">
+						<img class="card-img-top" src="portfolio/thumbnail/mario.png" style="width:100%">
+						<div class="card-body">
+							<h4 class="card-title">Mario Jump</h4>
+							<p>Primeiro projeto com HTML e CSS, desenvolvido no curso Do Zero ao primeiro Site, ofertado pelo grupo +praTi. Neste projeto dei meus primeiros passos com o desenvolvimento Web e trabalhei com divisões, imagens, listas e tabelas.</p>
+							<div class="text-center">
+								<a href="portfolio/Mario/mario.html" class="btn btn-success" target="_blank">Acesse aqui</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6 mt-4"> <!-- coluna 2 linha 2 -->
+					<div class="card">
+						<img class="card-img-top" src="portfolio/thumbnail/cartao.png" style="width:100%">
+						<div class="card-body">
+							<h4 class="card-title">Estante de Livros</h4>
+							<p>Primeiro projeto com HTML e CSS, desenvolvido no curso Do Zero ao primeiro Site, ofertado pelo grupo +praTi. Neste projeto dei meus primeiros passos com o desenvolvimento Web e trabalhei com divisões, imagens, listas e tabelas.</p>
+							<div class="text-center">
+								<a href="portfolio/Cartao/cartao.html" class="btn btn-success" target="_blank">Acesse aqui</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+
+
+corte com a fonte azul
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mariana de Freitas</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+	<!-- Font Awesome / ícones -->
+	<script src="https://kit.fontawesome.com/152920176d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+	<!-- Menu Fixado -->
+	<nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+		<div class="container">
+			<a href="#" class="navbar-brand";>Mariana</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+			
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item active"><a class="nav-link" href="#inicio">Início</a></li>
+					<li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+					<li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+					<li class="nav-item"><a class="nav-link" href="#portfolio">Portfólio</a></li>
+					<li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+				</ul>			
+			</div>
+		</div>
+	</nav>
+
+	<!-- Hero Image / Hero Header -->
+	<section class="bgimage shadow" id="inicio">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="glass">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+						<h2 class="hero_titulo">Olá, me chamo Mariana</h2>
+						<p class="hero_desc">Eu sou uma Técnica de Informática em Cajazeiras, na Paraíba.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Seção Sobre -->
+	<section class="shadow" id="sobre">
+		<div class="container mt-4 pt-4">
+			<h1 class="text-center">Sobre</h1>
+
+			<div class="row mt-4">
+				<!-- Imagem -->
+				<div class="col-lg-4">
+					<img src="img/sobre.jpg" class="imagemSobre">
+				</div>
+
+				<!-- infos -->
+				<div class="col-lg-8">
+					<p style="color: #0FBBC4">Parágrafo de informações Parágrafo de informaçõesParágrafo de informaçõesParágrafo de </p>
+					<div class="row mt-3">
+						<ul>
+							<li style="color: #0FBBC4">Nome: Mariana de Freitas</li>
+							<li style="color: #0FBBC4">Idade: 18</li>
+							<li style="color: #0FBBC4">Ocupação: Técnica de Informática</li>
+						</ul>
+					</div>
+					<div class="row mt-3">
+						<p style="color: #0FBBC4">Parágrafo de informações Parágrafo de informaçõesParágrafo de informaçõesParágrafo de </p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+
+	<!-- Seção Serviços (opcional) -->
+	<section class="shadow" id="servicos">
+		<div class="container">
+			<h1>Serviços</h1>
+
+			<div class="row">
+
+				<div class="col-lg-4 mt-4">
+					<div class="card servicesText">
+						<div class="card-body">
+							<i class="fa-solid fa-check servicesIcon"></i>
+							<h4 class="card-title mt-3" style="color: #0FBBC4">Título</h4>
+							<p style="color: #0FBBC4">Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 mt-4">
+					<div class="card servicesText">
+						<div class="card-body">
+							<i class="fa-solid fa-check servicesIcon"></i>
+							<h4 class="card-title mt-3" style="color: #0FBBC4">Título 2</h4>
+							<p style="color: #0FBBC4">Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 mt-4">
+					<div class="card servicesText">
+						<div class="card-body">
+							<i class="fa-solid fa-check servicesIcon"></i>
+							<h4 class="card-title mt-3" style="color: #0FBBC4">Título 3</h4>
+							<p style="color: #0FBBC4">Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto.</p>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+
+			<div class="row">
+
+				<div class="col-lg-6 mt-4">
+					<div class="card servicesText">
+						<div class="card-body">
+							<i class="fa-solid fa-check servicesIcon"></i>
+							<h4 class="card-title mt-3" style="color: #0FBBC4">Título</h4>
+							<p style="color: #0FBBC4">Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6 mt-4">
+					<div class="card servicesText">
+						<div class="card-body">
+							<i class="fa-solid fa-check servicesIcon"></i>
+							<h4 class="card-title mt-3" style="color: #0FBBC4">Título</h4>
+							<p style="color: #0FBBC4">Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto.</p>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+
+			<div class="row">
+
+				<div class="col-lg-4 mt-4">
+					<div class="card servicesText">
+						<div class="card-body">
+							<i class="fa-solid fa-check servicesIcon"></i>
+							<h4 class="card-title mt-3" style="color: #0FBBC4">Título</h4>
+							<p style="color: #0FBBC4">Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-8 mt-4">
+					<div class="card servicesText">
+						<div class="card-body">
+							<i class="fa-solid fa-check servicesIcon"></i>
+							<h4 class="card-title mt-3" style="color: #0FBBC4">Título</h4>
+							<p style="color: #0FBBC4">Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto, Exemplo de texto.</p>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+	</section>
+
+	<!-- Seção Portfólio 2x2 -->
+	<!-- cortado para o arquivo de cortes -->
+	<!-- Seção Portfólio 4x1 -->
+	<section class="shadow" id="portfolio2">
+		<div class="container mt-3">
+			<h1 class="text-center">Portfólio</h1>
+
+			<div class="row"> <!-- linha 1 -->
+				
+				<div class="col-lg-3 mt-4"> <!-- coluna 1 linha 1 -->
+					<div class="card">
+						<img class="card-img-top" src="portfolio/thumbnail/estante.png" style="width:100%">
+						<div class="card-body">
+							<h4 class="card-title">Estante de Livros</h4>
+							<p style="color: #0FBBC4">Primeiro projeto com HTML e CSS, desenvolvido no curso Do Zero ao primeiro Site, ofertado pelo grupo +praTi. Neste projeto dei meus primeiros passos com o desenvolvimento Web e trabalhei com divisões, imagens, listas e tabelas.</p>
+							<div class="text-center">
+								<a href="portfolio/estante/estante.html" class="btn btn-success" target="_blank">Acesse aqui</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 mt-4"> <!-- coluna 2 linha 1 -->
+					<div class="card">
+						<img class="card-img-top" src="portfolio/thumbnail/locadora.png" style="width:100%">
+						<div class="card-body">
+							<h4 class="card-title">Locadora de Filmes</h4>
+							<p style="color: #0FBBC4">Primeiro projeto com HTML e CSS, desenvolvido no curso Do Zero ao primeiro Site, ofertado pelo grupo +praTi. Neste projeto dei meus primeiros passos com o desenvolvimento Web e trabalhei com divisões, imagens, listas e tabelas.</p>
+							<div class="text-center">
+								<a href="portfolio/Locadora/locadora.html" class="btn btn-success" target="_blank">Acesse aqui</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 mt-4"> <!-- coluna 3 linha 1 -->
+					<div class="card">
+						<img class="card-img-top" src="portfolio/thumbnail/mario.png" style="width:100%">
+						<div class="card-body">
+							<h4 class="card-title">Mario Jump</h4>
+							<p style="color: #0FBBC4">Primeiro projeto com HTML e CSS, desenvolvido no curso Do Zero ao primeiro Site, ofertado pelo grupo +praTi. Neste projeto dei meus primeiros passos com o desenvolvimento Web e trabalhei com divisões, imagens, listas e tabelas.</p>
+							<div class="text-center">
+								<a href="portfolio/Mario/mario.html" class="btn btn-success" target="_blank">Acesse aqui</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 mt-4"> <!-- coluna 4 linha 1 -->
+					<div class="card">
+						<img class="card-img-top" src="portfolio/thumbnail/cartao.png" style="width:100%">
+						<div class="card-body">
+							<h4 class="card-title">Estante de Livros</h4>
+							<p style="color: #0FBBC4">Primeiro projeto com HTML e CSS, desenvolvido no curso Do Zero ao primeiro Site, ofertado pelo grupo +praTi. Neste projeto dei meus primeiros passos com o desenvolvimento Web e trabalhei com divisões, imagens, listas e tabelas.</p>
+							<div class="text-center">
+								<a href="portfolio/Cartao/cartao.html" class="btn btn-success" target="_blank">Acesse aqui</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+
+
+	<!-- Seção Contatos -->
+	<section class="shadow" id="contato">
+		<div class="container mt-3 mb-3 contactContent">
+			<h1 class="text-center">Contate-me</h1>
+
+			<div class="row mt-4">
+
+				<div class="col-lg-6"><!-- mapa -->
+					<div style="text-decoration:none; overflow:hidden;max-width:100%;width:500px;height:500px;">
+						<div id="google-maps-display" style="height:100%; width:100%;max-width:100%;">
+							<iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Cajazeiras,+PB,+Brasil&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+						</div>
+						<a class="code-for-google-map" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="grab-map-info">premium bootstrap themes</a>
+						<style>#google-maps-display img{max-height:none;max-width:none!important;background:none!important;}</style>
+					</div>
+				</div>
+
+				<div class="col-lg-6"><!-- infos -->
+					<div class="row">
+						<div class="col-lg-6"> <!-- telefone -->
+							<div class="card servicesText">
+								<i class="fa-solid fa-phone servicesIcon mt-4"></i>
+								<h4 class="card-title mt-3">Telefone</h4>
+								<p class="mt-3 text-center">(83) 9.9129-2105</p>
+								<p class="mt-3 text-center">(83) 9.9802-1192</p>
+								<p class="mt-3 text-center">(83) 9.9395-8064</p>
+							</div>
+						</div>
+						<div class="col-lg-6"> <!-- email -->
+							<div class="card servicesText">
+								<i class="fa-solid fa-envelope servicesIcon mt-4"></i>
+								<h4 class="card-title mt-3">Email</h4>
+								<p class="mt-3 text-center">marifalb2004@gmail.com</p>
+							</div>
+						</div>
+					</div>
+					<div class="row mt-4"> <!-- icones de redes -->
+						<div class="col-lg-3">
+							<a href="https://github.com/JillianDreemur"><i class="fa-brands fa-github-alt contactIcon"></i></a>
+						</div>
+						<div class="col-lg-3">
+							<a href="https://www.linkedin.com/in/mariana-de-freitas-albuquerque-68291a22a/"><i class="fa-brands fa-linkedin contactIcon"></i></a>
+						</div>
+						<div class="col-lg-3">
+							<a href="https://www.instagram.com/marifreitas_alb/"><i class="fa-brands fa-instagram contactIcon"></i></a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>	
+	</section>
+
+	<!-- Footer -->
+	<footer class="bg-light text-center text-white">
+
+		<div class="container p-4 pb-0"> <!-- icones -->
+			
+			<div class="row mt-4 mb-4"> <!-- linha -->
+				
+				<div class="col-lg-3"> <!-- coluna -->
+					<a href="https://github.com/JillianDreemur"><i class="fa-brands fa-github-alt"></i></a>
+				</div>
+
+				<div class="col-lg-3"> <!-- coluna -->
+					<a href="https://www.linkedin.com/in/mariana-de-freitas-albuquerque-68291a22a/"><i class="fa-brands fa-linkedin"></i></a>
+				</div>
+
+				<div class="col-lg-3"> <!-- coluna -->
+					<a href="https://www.instagram.com/marifreitas_alb/"><i class="fa-brands fa-instagram"></i></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);"> <!-- texto desenvolvimento -->
+			<p>Desenvolvido por Mariana de Freitas</p>
+		</div>
+	</footer>
+
+</body>
+</html>
+
+css desse corte
+
+/* texto hero image */
+.hero_titulo {
+	font-size: 4.5rem;
+}
+.hero_desc {
+	font-size: 2rem;
+}
+.hero-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+.bgimage{
+	height: 100vh;
+	background: url('img/heroImage.jpg');
+	background-size: cover;
+	position: relative;
+}
+
+/* imagem sobre */
+
+.imagemSobre {
+	width: 100%;
+}
+
+/* serviços */
+
+.servicesText.card{
+	height: 280px;
+	cursor: pointer;
+}
+
+.servicesIcon {
+	font-size: 36px;
+	text-align: center;
+	width: 100%;
+}
+
+.card-title {
+	text-align: center;
+}
+
+.card:hover .servicesIcon{
+	color: #008000;
+}
+
+.servicesText:hover {
+	border: 1px solid #008000;
+}
+
+/* menu */
+.navbar {
+	background-color: #000000;
+}
+.navbar a {
+	color: #0FBBC4;
+}
+.navbar a:hover {
+	color: black;
+	background-color: #ddd;
+}
+
+.contactIcon{
+	font-size: 56px;
+	color: #006342;
+}
+
+.glass {
+	height: 40%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: rgba(255, 255, 255, 0.05);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(4.9px);
+	-webkit-backdrop-filter: blur(4.9px);
+}
+
+#sobre, #servicos, #portfolio, #portfolio2, #contato {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
